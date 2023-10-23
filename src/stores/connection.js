@@ -104,6 +104,8 @@ const useConnectionStore = defineStore({
           while (this.open) {
             console.log('reading...')
             const { value, done } = await reader.read()
+            console.log('done: ', done);
+            console.log('value: ', value);
             if (done) {
               // |reader| has been canceled.
               this.open = false
