@@ -120,7 +120,7 @@ function consoleScroll(e) {
 <template>
   <header>
     <h1>
-      <a href="https://webserial.io">WebSerial</a>
+      <a href="https://webserial-app-vue.onrender.com/">WebSerial</a>
     </h1>
     <aside>
       <label for="checkbox">New Lines</label><input id="checkbox" type="checkbox" v-model="newlines">
